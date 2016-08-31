@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/action_setting"
+            android:icon="@drawable/female"
+            android:orderInCategory="100"
+            android:title="@string/action_settings"
+            app:showAsAction="always">
+            <menu>
+                <item
+                    android:id="@+id/action_profile"
+                    android:icon="@drawable/account"
+                    android:orderInCategory="100"
+                    android:title="Profile"
+                    app:showAsAction="always|withText" />
+                <item
+                    android:id="@+id/action_profile_options"
+                    android:icon="@drawable/settings"
+                    android:orderInCategory="100"
+                    android:title="Options"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/action_logout"
+                    android:icon="@drawable/coffee_takeaway"
+                    android:orderInCategory="100"
+                    android:title="LogOut"
+                    app:showAsAction="never" />
+
+            </menu>
+        </item>
+    </group>
+
+    <!--<item android:title="Communicate">-->
+    <!--<menu>-->
+    <!--<item-->
+    <!--android:id="@+id/nav_share"-->
+    <!--android:icon="@drawable/forums"-->
+    <!--android:title="Group Members" />-->
+    <!--<item-->
+    <!--android:id="@+id/nav_send"-->
+    <!--android:icon="@drawable/donate"-->
+    <!--android:title="Donate" />-->
+    <!--</menu>-->
+    <!--</item>-->
+
+</menu>
